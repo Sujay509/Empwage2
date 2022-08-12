@@ -20,11 +20,11 @@ for (int day = 0; day < numofworkingdays; day++) {
     	 break;
     	 default:
     		 emphrs=0;
+     }
+          empwage=emphrs*emprateperhour;
+	 totalempwage += empwage;
+               System.out.println("empwage: "+empwage);
+   }
+                  System.out.println("total emp wage: "+totalempwage);
+ }
 }
-empwage=emphrs*emprateperhour;
-System.out.println("empwage: "+empwage);
-
-	}
-System.out.println("total emp wage: "+totalempwage);
-	}
-	}
